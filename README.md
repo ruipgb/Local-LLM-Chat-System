@@ -7,7 +7,7 @@ Local AI chat system powered by a self-hosted LLM, with three different front-en
 
 This repository documents the architecture and implementation of the project and provides all the source code inside the attached PDF guide.
 
----
+
 
 Overview
 
@@ -22,26 +22,26 @@ This setup is useful for:
 - building custom assistants on top of local models  
 - integrating AI into automation workflows and security tools  
 
----
+
 
 Architecture
 
 High-level architecture:
 
-- **Local LLM backend**  
+- Local LLM backend  
   - Python scripts to load and run the model (e.g. Mistral)  
   - Model executed locally on the machine (no external API)
 
-- **Interfaces**  
+- Interfaces 
   - **CLI**: interactive terminal client  
   - **Telegram Bot**: bot that forwards messages to the local backend  
   - **Web Interface**: simple HTTP endpoint + HTML/JS front-end
 
-- **Orchestration**  
+- Orchestration 
   - Shared logic for prompt handling, context management and logging  
   - Possibility to plug the system into automation tools (e.g. n8n)
 
----
+
 
 Project Guide & Source Code
 
@@ -63,7 +63,7 @@ The PDF contains:
 - full source code  
 - screenshots and explanation of each component
 
----
+
 
 Technologies Used
 
@@ -73,7 +73,7 @@ Technologies Used
 - **HTML / JavaScript (basic)**
 - **Git & GitHub**
 
----
+
 
 Future Work
 
@@ -82,7 +82,7 @@ Future Work
 - Add authentication and access control for the web interface  
 - Integrate with additional messaging platforms
 
----
+
 
 Author
 
