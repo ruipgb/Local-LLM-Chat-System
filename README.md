@@ -1,4 +1,4 @@
-# Local-LLM-Chat-System
+Local-LLM-Chat-System
 
 Local AI chat system powered by a self-hosted LLM, with three different front-ends:
 - Command Line Interface (CLI)
@@ -9,7 +9,7 @@ This repository documents the architecture and implementation of the project and
 
 ---
 
-## 🔍 Overview
+Overview
 
 The goal of this project is to run a Large Language Model (LLM) **locally**, without depending on external cloud APIs, and expose it through multiple interfaces:
 
@@ -24,7 +24,7 @@ This setup is useful for:
 
 ---
 
-## 🧩 Architecture
+Architecture
 
 High-level architecture:
 
@@ -43,7 +43,7 @@ High-level architecture:
 
 ---
 
-## 📄 Project Guide & Source Code
+Project Guide & Source Code
 
 All details about:
 
@@ -65,7 +65,7 @@ The PDF contains:
 
 ---
 
-## 🛠 Technologies Used
+Technologies Used
 
 - **Python**
 - **Telegram Bot API**
@@ -75,7 +75,7 @@ The PDF contains:
 
 ---
 
-## 📌 Future Work
+Future Work
 
 - Add direct source code files alongside the PDF  
 - Provide Docker setup for easier deployment  
@@ -84,7 +84,7 @@ The PDF contains:
 
 ---
 
-## 👤 Author
+Author
 
 Developed by **Rui Garripa Bastos**  
 Cybersecurity & AI Enthusiast  
